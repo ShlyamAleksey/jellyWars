@@ -1,0 +1,140 @@
+<main>
+  <TopPanel>
+<parent class="display.SimpleImage" texture="substrate_account" width="233" height="146" name="instance5" x="1445.2" y="0" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleSprite" width="94" height="94" name="redIco" x="1402.2" y="25" scaleX="1" scaleY="1">
+    <parent class="display.SimpleImage" texture="substrate_heroes" width="94" height="94" name="instance7" x="0" y="0" scaleX="1" scaleY="1"/>
+  </parent>
+  <parent class="display.SimpleSprite" width="94" height="94" name="blueIco" x="1625.3" y="55" scaleX="1" scaleY="1">
+    <parent class="display.SimpleImage" texture="substrate_heroes" width="94" height="94" name="instance9" x="0" y="0" scaleX="1" scaleY="1"/>
+  </parent>
+  <parent class="display.SimpleImage" texture="substrate_mineral" width="233" height="109" name="instance11" x="868.9" y="37.8" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="substrate_mineral" width="233" height="109" name="instance13" x="618.9" y="37.8" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="substrate_mineral" width="233" height="109" name="instance15" x="367.95" y="36.8" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="substrate_mineral" width="233" height="109" name="instance17" x="113.95" y="38.8" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="substrate_diamond" width="271" height="109" name="instance19" x="1113.9" y="38" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="ico_diamond" width="136" height="154" name="instance21" x="1101.4" y="17.3" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="big_mineral_blue" width="117" height="134" name="instance23" x="350.95" y="25" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="big_mineral_pink" width="115" height="132" name="instance25" x="101" y="27" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="big_mineral_violet" width="106" height="129" name="instance27" x="853.45" y="29" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="big_mineral_yellow" width="116" height="131" name="instance29" x="603.45" y="22.8" scaleX="1" scaleY="1"/>
+  <parent class="starling.display.Button" texture="btn_buy" width="64" height="64" name="buyButton" x="1333.4" y="52.3" scaleX="1" scaleY="1"/>
+  <parent class="starling.display.Button" texture="btn_exit" width="95" height="112" name="exitButton" x="2.8" y="38.3" scaleX="1" scaleY="1"/>
+  <parent class="display.text.SimpleTextField" color="7685142" fontSize="36" fontName="Consolas" width="126.15" height="55.55" text="0" x="947.45" y="58.75" scaleX="1" scaleY="1" name="violetCountTF"/>
+  <parent class="display.text.SimpleTextField" color="7685142" fontSize="36" fontName="Consolas" width="99.95" height="55.55" text="0" x="1229.55" y="58.3" scaleX="1" scaleY="1" name="crystalCountTF"/>
+  <parent class="display.text.SimpleTextField" color="7685142" fontSize="36" fontName="Consolas" width="126.15" height="55.55" text="0" x="707.45" y="56.75" scaleX="1" scaleY="1" name="yellowCountTF"/>
+  <parent class="display.text.SimpleTextField" color="7685142" fontSize="36" fontName="Consolas" width="126.15" height="55.55" text="0" x="455.95" y="56.3" scaleX="1" scaleY="1" name="blueCountTF"/>
+  <parent class="display.text.SimpleTextField" color="7685142" fontSize="36" fontName="Consolas" width="126.15" height="55.55" text="0" x="200" y="57.25" scaleX="1" scaleY="1" name="pinkCountTF"/>
+  <parent class="display.text.SimpleTextField" color="7685142" fontSize="36" fontName="Consolas" width="129.95" height="55.55" text="0" x="1487.45" y="55.25" scaleX="1" scaleY="1" name="scoreTF"/>
+</TopPanel>
+
+<BottomPanel>
+   <parent class="display.SimpleImage" texture="substrate_btn_bonus" width="420" height="176" name="instance58" x="0" y="40" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="substrate_btn_bonus" width="420" height="176" name="instance60" x="435.15" y="41" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="substrate_btn_bonus" width="420" height="176" name="instance62" x="858.15" y="42" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="substrate_btn_bonus" width="420" height="176" name="instance64" x="1282.15" y="41" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="ico_bonus_clean" width="196" height="214" name="iconRemoveOne" x="419.3" y="0" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="ico_bonus_bomb" width="149" height="196" name="iconRemoveFive" x="860.8" y="8" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="ico_bonus_landing" width="148" height="211" name="iconDrawFive" x="1297.3" y="6.45" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="ico_bonus_add_time" width="168" height="196" name="iconClock" x="2" y="10.45" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="price" width="134" height="64" name="instance70" x="43.35" y="160.9" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="price" width="134" height="64" name="instance72" x="477.35" y="161.9" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="price" width="134" height="64" name="instance74" x="900.3" y="162.9" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="price" width="134" height="64" name="instance76" x="1325.3" y="162.9" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="small_mineral_blue" width="60" height="64" name="instance78" x="559.35" y="142.45" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="small_mineral_pink" width="59" height="63" name="instance80" x="132.35" y="144.45" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="small_mineral_violet" width="53" height="62" name="instance82" x="1413.7" y="147.45" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleImage" texture="small_mineral_yellow" width="59" height="63" name="instance84" x="985.8" y="143.45" scaleX="1" scaleY="1"/>
+  <parent class="display.text.SimpleTextField" color="7685142" fontSize="42" fontName="Consolas" width="88" height="53.2" text="999" x="478.95" y="164.9" scaleX="1" scaleY="1" name="destroyOnePriceTF"/>
+  <parent class="display.text.SimpleTextField" color="7685142" fontSize="42" fontName="Consolas" width="88" height="53.2" text="999" x="46.35" y="163.8" scaleX="1" scaleY="1" name="clockPriceTF"/>
+  <parent class="display.text.SimpleTextField" color="7685142" fontSize="42" fontName="Consolas" width="88" height="53.2" text="999" x="901.3" y="165.8" scaleX="1" scaleY="1" name="destroyFivePriceTF"/>
+  <parent class="display.text.SimpleTextField" color="7685142" fontSize="42" fontName="Consolas" width="88" height="53.2" text="999" x="1327.3" y="164.9" scaleX="1" scaleY="1" name="drawFiveTF"/>
+  <parent class="display.text.SimpleTextField" color="7685142" fontSize="32" fontName="Consolas" width="213.95" height="120.5" text="Убрать 5 точек противника" x="1026.6" y="74.8" scaleX="1" scaleY="1" name="destroyFiveDescTF"/>
+  <parent class="display.text.SimpleTextField" color="7685142" fontSize="32" fontName="Consolas" width="213.95" height="120.5" text="Добавить 5 точек на поле" x="1453.3" y="74.8" scaleX="1" scaleY="1" name="drawFiveDescTF"/>
+  <parent class="display.text.SimpleTextField" color="7685142" fontSize="32" fontName="Consolas" width="213.95" height="120.5" text="Убрать 1 точку противника" x="602.3" y="74.8" scaleX="1" scaleY="1" name="destroyOneDescTF"/>
+  <parent class="display.text.SimpleTextField" color="7685142" fontSize="32" fontName="Consolas" width="213.95" height="120.5" text="Добавить 15 секунд" x="173.4" y="74.8" scaleX="1" scaleY="1" name="clockDescTF"/>
+  <parent class="starling.display.Button" texture="btn_buy" width="64" height="64" name="buyClock" x="351.3" y="22.35" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleSprite" width="64" height="64" name="clockCount" x="349.3" y="20.35" scaleX="1" scaleY="1">
+    <parent class="display.SimpleImage" texture="substrate_bon" width="64" height="64" name="instance86" x="0" y="0" scaleX="1" scaleY="1"/>
+    <parent class="display.text.SimpleTextField" color="7685142" fontSize="42" fontName="Consolas" width="41.7" height="53.2" text="5" x="11.15" y="5.4" scaleX="1" scaleY="1" name="countTF"/>
+  </parent>
+  <parent class="starling.display.Button" texture="btn_buy" width="64" height="64" name="buyDestroyFive" x="1204.55" y="32.8" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleSprite" width="64" height="64" name="destroyFiveCount" x="1204.55" y="32.8" scaleX="1" scaleY="1">
+    <parent class="display.SimpleImage" texture="substrate_bon" width="64" height="64" name="instance88" x="0" y="0" scaleX="1" scaleY="1"/>
+    <parent class="display.text.SimpleTextField" color="7685142" fontSize="42" fontName="Consolas" width="41.7" height="53.2" text="5" x="11.15" y="5.4" scaleX="1" scaleY="1" name="countTF"/>
+  </parent>
+  <parent class="starling.display.Button" texture="btn_buy" width="64" height="64" name="buyDestroyOne" x="782.25" y="28.8" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleSprite" width="64" height="64" name="destroyOneCount" x="782.25" y="28.8" scaleX="1" scaleY="1">
+    <parent class="display.SimpleImage" texture="substrate_bon" width="64" height="64" name="instance90" x="0" y="0" scaleX="1" scaleY="1"/>
+    <parent class="display.text.SimpleTextField" color="7685142" fontSize="42" fontName="Consolas" width="41.7" height="53.2" text="5" x="11.15" y="5.4" scaleX="1" scaleY="1" name="countTF"/>
+  </parent>
+  <parent class="starling.display.Button" texture="btn_buy" width="64" height="64" name="buyDrawFive" x="1630.5" y="32.8" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleSprite" width="64" height="64" name="drawFiveCount" x="1630.5" y="32.8" scaleX="1" scaleY="1">
+    <parent class="display.SimpleImage" texture="substrate_bon" width="64" height="64" name="instance92" x="0" y="0" scaleX="1" scaleY="1"/>
+    <parent class="display.text.SimpleTextField" color="7685142" fontSize="42" fontName="Consolas" width="41.7" height="53.2" text="5" x="11.15" y="5.4" scaleX="1" scaleY="1" name="countTF"/>
+  </parent>
+</BottomPanel>
+
+<VictoryWindow>
+  <parent class="display.SimpleImage" texture="flag" width="133" height="218" name="flag_right" x="518.3" y="319.3" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="pipe_1" width="104" height="51" name="pipeIco_2" x="100" y="43.4" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="pipe_2" width="143.5" height="62" name="pipeIco_1" x="51.7" y="74.95" scaleX="0.5" scaleY="0.5"/>
+    <parent class="display.SimpleImage" texture="flag" width="133" height="218" name="flag_left" x="124.75" y="314.8" scaleX="-0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="pipe_1" width="104" height="51" name="pipeIco_3" x="566.2" y="54.05" scaleX="-0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="heading_2" width="350" height="130.5" name="title_defeat" x="147.25" y="3.25" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="shield" width="477.45" height="561.15" name="shield" x="82.9" y="118.85" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="heading" width="352.7" height="135.75" name="title_win" x="146.25" y="0" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="shield_decor" width="651.3" height="252" name="shield_decor" x="0" y="125.2" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="substrate_character" width="180.35" height="184.35" name="blueIcon" x="430.6" y="147" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="substrate_character" width="180" height="184" name="redIcon" x="30.7" y="147.2" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="substrate_experience" width="108.2" height="55.6" name="instance81" x="467.7" y="283.3" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="substrate_experience" width="108.2" height="55.6" name="instance83" x="65.05" y="283.3" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="substrate_minerals" width="283.05" height="52.1" name="instance85" x="179.1" y="296.25" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="substrate_minerals_1" width="52.6" height="19.05" name="instance87" x="193" y="314.8" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="substrate_minerals_1" width="52.6" height="19.05" name="instance89" x="257.1" y="314.8" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="substrate_minerals_1" width="52.6" height="19.05" name="instance91" x="320.2" y="314.8" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="substrate_minerals_1" width="52.6" height="19.05" name="instance93" x="389.35" y="314.8" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="substrate_score" width="156.8" height="83.65" name="instance95" x="245.25" y="207.35" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="btn_close" width="49.1" height="51.1" name="closeBtn" x="457.9" y="6" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="btn_levels" width="73.65" height="76.15" name="levelBtn" x="386.35" y="480" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="btn_next_level" width="122.75" height="124.75" name="nextBtn" x="261.75" y="506.2" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="btn_replay" width="73.65" height="76.15" name="replayBtn" x="185.35" y="481" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="small_mineral_blue" width="30.05" height="32.05" name="instance101" x="289.15" y="307.35" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="small_mineral_yellow" width="29.55" height="31.55" name="instance103" x="356.95" y="307.35" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="small_mineral_violet" width="26.55" height="31.05" name="instance105" x="422.55" y="307.75" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="small_mineral_pink" width="29.55" height="31.55" name="instance107" x="225.25" y="307.35" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.text.SimpleTextField" color="16777215" fontSize="38" fontName="Tahoma" width="230" height="50" text="ПОБЕДА!" x="212.4" y="27" scaleX="1" scaleY="1" name="titleTF"/>
+  <parent class="display.text.SimpleTextField" color="16777215" fontSize="40" fontName="Corbel" width="139" height="68.7" text="42:40" x="253.95" y="214.85" scaleX="1" scaleY="1" name="scoreTF"/>
+  <parent class="display.text.SimpleTextField" color="16777215" fontSize="24" fontName="Corbel" width="50" height="33.3" text="999" x="507" y="286" scaleX="1" scaleY="1" name="blueExpTF"/>
+  <parent class="display.text.SimpleTextField" color="16777215" fontSize="24" fontName="Corbel" width="58" height="33.3" text="999" x="100" y="286" scaleX="1" scaleY="1" name="redExpTF"/>
+  <parent class="display.text.SimpleTextField" color="16777215" fontSize="42" fontName="Tahoma" width="413" height="58.95" text="ПОЗДРАВЛЯЕМ!" x="118.4" y="425" scaleX="1" scaleY="1" name="congratulationTF"/>
+  <parent class="display.text.SimpleTextField" color="16777215" fontSize="16" fontName="Corbel" width="31.5" height="23.55" text="999" x="196" y="310" scaleX="1" scaleY="1" name="redStoneTF"/>
+  <parent class="display.text.SimpleTextField" color="16777215" fontSize="16" fontName="Corbel" width="31.5" height="23.55" text="999" x="259" y="310" scaleX="1" scaleY="1" name="blueStoneTF"/>
+  <parent class="display.text.SimpleTextField" color="16777215" fontSize="16" fontName="Corbel" width="31.5" height="23.55" text="999" x="325" y="310" scaleX="1" scaleY="1" name="yellowStoneTF"/>
+  <parent class="display.text.SimpleTextField" color="16777215" fontSize="16" fontName="Corbel" width="31.5" height="23.55" text="999" x="393" y="310" scaleX="1" scaleY="1" name="purpleStoneTF"/>
+  <parent class="display.SimpleImage" texture="vs" width="96" height="62.5" name="instance109" x="270.95" y="138.85" scaleX="0.5" scaleY="0.5"/>
+  <parent class="display.SimpleImage" texture="exp_star" width="31.1" height="32.35" name="instance111" x="74.9" y="289.55" scaleX="0.317352294921875" scaleY="0.317352294921875"/>
+  <parent class="display.SimpleImage" texture="exp_star" width="31.1" height="32.35" name="instance113" x="477.1" y="288.35" scaleX="0.317352294921875" scaleY="0.317352294921875"/>
+  <parent class="display.SimpleSprite" width="339.5" height="79" name="scoreVictory" x="155.95" y="348.7" scaleX="1" scaleY="1">
+    <parent class="display.SimpleImage" texture="substrate_award" width="339.5" height="79" name="instance115" x="0.35" y="0.1" scaleX="0.5" scaleY="0.5"/>
+    <parent class="display.SimpleImage" texture="substrate_award_1" width="106.7" height="43.1" name="instance117" x="193.7" y="11.05" scaleX="0.5" scaleY="0.5"/>
+    <parent class="display.SimpleImage" texture="substrate_award_1" width="106.7" height="43.1" name="instance119" x="47.45" y="11.05" scaleX="0.5" scaleY="0.5"/>
+    <parent class="display.SimpleImage" texture="ico_diamond" width="54.4" height="61.6" name="instance121" x="34.3" y="5.3" scaleX="0.399993896484375" scaleY="0.399993896484375"/>
+    <parent class="display.text.SimpleTextField" color="16777215" fontSize="24" fontName="Tahoma" width="70" height="43.05" text="+99" x="84.45" y="7.2" scaleX="1" scaleY="1" name="crystallCountTF"/>
+    <parent class="display.text.SimpleTextField" color="16777215" fontSize="24" fontName="Tahoma" width="67.5" height="43.05" text="+99" x="231.45" y="5.2" scaleX="1" scaleY="1" name="expCountTF"/>
+    <parent class="display.SimpleImage" texture="exp_star" width="49" height="51" name="instance123" x="186.25" y="2.55" scaleX="0.5" scaleY="0.5"/>
+  </parent>
+  <parent class="display.SimpleSprite" width="222" height="77" name="scoreDefeat" x="219.95" y="348.8" scaleX="1" scaleY="1">
+    <parent class="display.SimpleImage" texture="substrate_lost_exp" width="222" height="77" name="instance125" x="0" y="0" scaleX="0.5" scaleY="0.5"/>
+    <parent class="display.SimpleImage" texture="exp_star" width="50.1" height="52.15" name="instance127" x="43.85" y="3.55" scaleX="0.511322021484375" scaleY="0.511322021484375"/>
+    <parent class="display.text.SimpleTextField" color="16777215" fontSize="32" fontName="Corbel" width="67.5" height="43.05" text="+99" x="98.65" y="3.55" scaleX="1" scaleY="1" name="expCountTF"/>
+  </parent>
+</VictoryWindow>
+
+<BoxPanel>
+  <parent class="display.SimpleImage" texture="substrate_award_1" width="213" height="86" name="subs" x="0" y="0" scaleX="1" scaleY="1"/>
+  <parent class="display.SimpleSprite" width="92" height="108.5" name="item" x="50" y="14.25" scaleX="1" scaleY="1">
+    <parent class="display.SimpleImage" texture="substrate_bon" width="64" height="64" name="sub" x="0" y="0" scaleX="1" scaleY="1"/>
+    <parent class="display.SimpleImage" texture="ico_box" width="92" height="99" name="box" x="-21.5" y="-44.5" scaleX="1" scaleY="1"/>
+  </parent>
+</BoxPanel>
+</main>
